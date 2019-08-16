@@ -1,0 +1,51 @@
+--- Automação TRF5 1.0.1 ---
+
+******Briefing******
+	Esta aplicação, tem como função principal, automatizar as verificações
+periodicas no site/intranet do cliente TRF5.
+
+******Pack - C:\Automação TRF5******
+	Neste diretorio deve conter os seguintes itens:
+Leia-me.txt
+Automação TRF5 1.0.1.jar
+subdiretório: Drivers Navegadores
+OBS: Após primeira utilização, também sera criado os subdiretórios: 
+"Downloads TRF5"
+"Ano Atual"
+
+******Configuração******
+	Certifique-se de que voce possui o navagador Google Chrome, Excel, e o
+diretório "Automação TRF5" devidamente instalados no seu notebook/PC
+para garantir o funcionamento adequado do software.
+
+******Importante******
+	Esta aplicação interage diretamente com o navegador, você pode executar
+outras atividades durante o uso do robo, mesmo com o navegador em segundo
+plano, ou minimizado, as evidencias serão devidamente coletadas e salvas
+no diretório "C:\Automação TRF5\Ano Atual".Porém, aconselhamos que, durante
+a execução dos documentos Q, e R, voce deixe o navegador em primeiro plano,
+pois haverá algumas interações do robo com o usuário, ou com aplicativos
+do pacote office.
+	Salientamos também, que se atente aos PopUps exibidos durante a execução
+do robo. No PopUp de erro durante a execução você tera 3 opções. Será apresentada a seguinte mensagem:
+"Falha ao tirar print! XXXXX - Deseja tentar novamente?"
+		[SIM]  [NÃO]  [CANCELAR]
+1.Caso você clique em SIM, ele ira repetir o processo de tirar o print que falhou. Caso falhe novamente, pode ser um problema do site/intranet do TRF5.
+Será exibido novamente o PopUp de erro. 
+2.Caso você clique em NÃO, ele pula para o
+proximo print do mesmo documento que já está em execução. 
+3.Caso você clique em CANCELAR, a execução do documento é interrompida e você volta 
+para a tela inicial do robo.
+
+++Documentos Q e R
+OBS: Documentos Q e R, as vezes apresentam extrema lentidão. Isto ocorre pois os arquivos gerados 
+pelo site do TRF5 estão pesados. É só aguardar o download que o mesmo sera finalizado.
+-No documento Q, o usuário só precisa inserir o CAPTCHA e clicar em Solicitar manualmente de acordo
+com o PopUp exibido durante a execução.
+-No documento R, não será nescessária nenhuma atuação do usuário, durante download dos arquivos,
+o site exibe um popup que informa que o documento está sendo gerado, basta aguardar que assim que
+concluir o download, o proprio robo clica em OK no popup do site. 
+(O robo tambem se encarrega de abrir e fechar o excel, e tratar erros de arquivos corrompidos. Lembrando que caso o arquivo abra, porém esteja em branco, deve ser aberto chamado no citsmart reportando o erro.)
+
+
+
