@@ -15,8 +15,8 @@ public class DocumentoN extends Navegador{ // Classe referente á execução do 
 																										//para ser manipulado na classe Documento"X"
 			criarDiretorio();
 			paginaDocNaberta = paginaDocN;
-			paginaDocN.findElement(By.cssSelector("#name")).sendKeys("monitor");
-			paginaDocN.findElement(By.cssSelector("#password")).sendKeys("monitor");
+			paginaDocN.findElement(By.cssSelector("#name")).sendKeys("xxxxxxx");
+			paginaDocN.findElement(By.cssSelector("#password")).sendKeys("xxxxxxx");
 			paginaDocN.findElement(By.cssSelector("#enter")).click();
 			paginaDocN.findElement(By.cssSelector("#sub_view > li:nth-child(1) > a")).click();
 			

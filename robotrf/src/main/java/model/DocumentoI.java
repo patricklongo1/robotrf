@@ -16,8 +16,8 @@ public class DocumentoI extends Navegador{ // Classe referente á execução do 
 		try {
 			WebDriver paginaDocI = Navegador.abrirNavegador("https://www4.trf5.jus.br/temis/"); //Objeto tipo WebDriver recebe instancia da classe Navegador 
 			criarDiretorio();
-			paginaDocI.findElement(By.id("frmLogin:login")).sendKeys("CWEB");
-			paginaDocI.findElement(By.id("frmLogin:senha")).sendKeys("kiere20eg8");
+			paginaDocI.findElement(By.id("frmLogin:login")).sendKeys("xxxxxxx");
+			paginaDocI.findElement(By.id("frmLogin:senha")).sendKeys("xxxxxxx");
 			paginaDocI.findElement(By.id("frmLogin:btEntrar")).click();
 			new WebDriverWait(paginaDocI, 20).until(ExpectedConditions.urlToBe("https://www4.trf5.jus.br/temis/consulta.jsf"));
 			tirarPrint(paginaDocI, "LEI9099");

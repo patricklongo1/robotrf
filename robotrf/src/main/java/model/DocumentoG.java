@@ -19,10 +19,10 @@ public class DocumentoG extends Navegador { // Classe referente á execução do
 			WebDriverWait wait = new WebDriverWait(paginaDocG, 30);
 			paginaDocG.findElement(By.cssSelector(
 					"#wrapper > form > table:nth-child(5) > tbody > " + "tr:nth-child(1) > td:nth-child(2) > input"))
-					.sendKeys("bruno_bryan@hotmail.com");
+					.sendKeys("xxxxxxx@hotmail.com");
 			paginaDocG.findElement(By.cssSelector(
 					"#wrapper > form > table:nth-child(5) > tbody > " + "tr:nth-child(2) > td:nth-child(2) > input"))
-					.sendKeys("Ou8YIMRm");
+					.sendKeys("xxxxxxx");
 			paginaDocG
 					.findElement(By
 							.cssSelector("#wrapper > form > table:nth-child(5) > tbody > tr:nth-child(3) > td > input"))

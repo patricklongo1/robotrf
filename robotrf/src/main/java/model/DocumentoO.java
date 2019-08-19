@@ -15,8 +15,8 @@ public class DocumentoO extends Navegador{ // Classe referente á execução do 
 																										//para ser manipulado na classe Documento"X"
 			criarDiretorio();
 			paginaDocOaberta = paginaDocO;
-			paginaDocO.findElement(By.cssSelector("#name")).sendKeys("monitor");
-			paginaDocO.findElement(By.cssSelector("#password")).sendKeys("monitor");
+			paginaDocO.findElement(By.cssSelector("#name")).sendKeys("xxxxxxx");
+			paginaDocO.findElement(By.cssSelector("#password")).sendKeys("xxxxxxx");
 			paginaDocO.findElement(By.cssSelector("#enter")).click();
 			paginaDocO.get("http://10.141.120.41/zabbix/charts.php?graphid=28479");
 			tirarPrint(paginaDocO, "HOST_Canhotinho");
