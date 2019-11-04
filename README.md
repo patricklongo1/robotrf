@@ -8,3 +8,6 @@ Este projeto foi idealizado e desenvolvido para automação de teste de disponib
 Projeto desenvolvido com Java e Selenium WebDriver.
 
 Algumas funções dependem de Login e Senha, e não vão funcionar nesta versão disponibilizada no modo Público do GitHub, devido ao fato de darem acesso á informações sigilosas do site.
+
+
+![Automação TRF](https://github.com/patricklongo1/robotrf/blob/master/Sem%20t%C3%ADtulo.png)
